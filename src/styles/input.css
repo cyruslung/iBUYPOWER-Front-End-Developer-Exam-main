@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button [class^="swiper-button-"]::after {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
